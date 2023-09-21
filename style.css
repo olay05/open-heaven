@@ -54,7 +54,7 @@ p {
   position: relative;
   top: 0;
   left: 0;
-  padding-right: 10rem;
+  padding-right: 1rem;
   width: 100%;
 }
 
@@ -207,27 +207,28 @@ p {
 .dove {
   display: flex;
   padding-bottom: 8rem;
+  padding-bottom: 2rem;
 
 }
 
 .dove > ul {
   font-size: small;
-  padding-bottom: 0rem;
-  padding-right: 8rem;
+  padding-top: 0rem;
+  padding-right: 1rem;
 }
 
 .foot-gallery {
     display: flex;
     gap: 2rem;
-    padding-left: 6rem;
+    padding-left: 1rem;
 }
 
 .footer-icons {
   display: flex;
   gap: 5px;
-  height: 35px;
-  padding-top: 6rem;
-  padding-right: 14rem;
+  height: 30px;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
 
@@ -254,24 +255,39 @@ p {
     width: 100%;
     display: block;
     flex-direction: column-reverse;
+    position: sticky;
+    top: 0;
+    
   }
 
   .icons {
-    display: block;
+
     flex-direction: column-reverse;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 30rem;
+    color: #673ab7;
+    position: sticky;
+    top: 0;
+   
   }
 
   .first-div {
     flex-basis: 100%;
     margin-bottom: 50px;
+    position: sticky;
+    top: 0;
   }
   .second-div {
    flex-direction: column-reverse;
-   margin: 50px 0;
+   /* margin: 50px 0; */
+   position: sticky;
+   top: 0;
   }
 
+  .home-design {
+    position: absolute;
+    top: 1rem;
+    left: 40rem;
+  }
   .design-one {
     position: relative;
     top: 0;
@@ -280,10 +296,12 @@ p {
   }
 
   .design-two {
-    width: 100%;
+    position: relative;
+    /* width: 100%; */
     top: 0;
     left: 11rem;
   }
+
 h3 {
     font-size: xx-large;
 padding-left: 3rem;
@@ -304,11 +322,87 @@ p {
 }
 
 .img-iphone {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  position: absolute;
+    top: 10px;
+    left: 100px;
+    padding-left: 26rem;
+}
+
+.middle {
+  
+}
+
+.img-two {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70rem;
+
+}
+
+.line {
+  width: 15rem;
+  padding-left: 10rem;
+  
+}
+
+.upload {
+  width: 4rem;
+  height: 60px;
+  padding-left: 1rem;
+  padding-top: 6rem;
 }
 
 .card {
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  padding-left: 45rem;
+  padding-top: 25rem;
 }
+
+.footer-section {
+  display: flex;
+  padding-top: 1rem;
+  padding-right: 1rem;
+ 
+ 
+}
+
+.footer {
+  position: absolute;
+  font-size: xx-large;
+  padding-top: 20rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.footer > h4 {
+    padding-right: 16rem;
+}
+.footer2 {
+  width: 70rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  position: absolute;
+  
+}
+
+.dove {
+  display: flex;
+  padding-bottom: 1rem;
+
+}
+
+.dove > ul {
+  font-size: small;
+
+}
+
+.foot-gallery {
+  display: flex;
+  padding-right: 6rem;
+}
+
 }
