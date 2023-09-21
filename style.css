@@ -1,0 +1,314 @@
+.Parent-div {
+  /* background-color: #FFFFFF; */
+  display: flex;
+  
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    padding-left: 80rem;
+    padding-top: 5rem;
+    z-index: 30;
+    height: 60px;
+    gap: 1rem;
+  }
+
+.first-div {
+  width: 40%;
+  font-size: xx-large;
+}
+.first-icon {
+  padding-left: 4rem;
+}
+
+h3 {
+  color: #673ab7;
+  padding-left: 2em;
+  line-height: 4px;
+}
+
+.download {
+  color: black;
+}
+
+p {
+  padding-left: 2em;
+  font-size: xx-large;
+}
+
+.second-div {
+  /* background-color: #673AB7; */
+  width: 50%;
+}
+
+.home-design {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.design-one {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-right: 10rem;
+  width: 100%;
+}
+
+.design-two {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  width: 100%;
+  /* padding-right: 10rem; */
+  
+}
+
+
+.btn-top {
+    display: flex;
+}
+
+.btn {
+  display: flex;
+  gap: 3rem;
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+
+.img-iphone {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    padding-left: 16rem;
+    width: 40rem;
+    z-index: 10;
+    padding-top: 10rem;
+  }
+
+.dot-img {
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+
+.section-one {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 18rem;
+  padding-left: 3rem;
+}
+.text-one {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 10rem;
+}
+
+.img-two {
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  width: 100rem;
+  height: 80rem;
+  padding-top: rem;
+  
+}
+
+.Heavens-section {
+  display: flex;
+  padding-left: 15rem;
+  padding-top: 10rem;
+  gap: 5rem;
+}
+
+.upload {
+    width: 4rem;
+    padding-left: 2rem;
+}
+
+.line {
+  width: 45rem;
+  padding-left: 10rem;
+  /* padding-top: 10rem; */
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  padding-left: 70rem;
+  padding-top: 25rem;
+}
+
+.section-one > h2 {
+  padding-top: 17rem;
+  padding-left: 10rem;
+  font-size: xx-large;
+}
+
+.middle {
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.footer1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100rem;
+  padding-bottom: 10rem;
+}
+
+.footer2 {
+  width: 100rem;
+  padding-left: 3rem;
+  padding-top: 10rem;
+  position: absolute;
+  
+}
+
+.footer {
+  position: absolute;
+  font-size: xx-large;
+  padding-top: 30rem;
+  padding-left: 25rem;
+  color: white;
+}
+
+.footer > h4 {
+    padding-left: 16rem;
+}
+/* 
+.btn-footer {
+  position: absolute;
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+  width: 10rem;
+  padding-top: 2rem;
+  padding-right: 10rem;
+} */
+
+.footer-section {
+  display: flex;
+  padding-top: 14rem;
+  padding-right: 10rem;
+ 
+
+}
+
+.dove {
+  display: flex;
+  padding-bottom: 8rem;
+
+}
+
+.dove > ul {
+  font-size: small;
+  padding-bottom: 0rem;
+  padding-right: 8rem;
+}
+
+.foot-gallery {
+    display: flex;
+    gap: 2rem;
+    padding-left: 6rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 5px;
+  height: 35px;
+  padding-top: 6rem;
+  padding-right: 14rem;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .Parent-div {
+    width: 100%;
+    display: block;
+    flex-direction: column-reverse;
+  }
+
+  .icons {
+    display: block;
+    flex-direction: column-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .first-div {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .second-div {
+   flex-direction: column-reverse;
+   margin: 50px 0;
+  }
+
+  .design-one {
+    position: relative;
+    top: 0;
+    left: 10rem;
+    
+  }
+
+  .design-two {
+    width: 100%;
+    top: 0;
+    left: 11rem;
+  }
+h3 {
+    font-size: xx-large;
+padding-left: 3rem;
+line-height: 2rem;
+}
+
+p {
+    font-size: small;
+    /* width: 100%; */
+}
+
+.btn-top {
+    flex-direction: column-reverse;
+}
+  
+.btn {
+    flex-direction: column-reverse;
+}
+
+.img-iphone {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card {
+    width: 100%;
+}
+}
